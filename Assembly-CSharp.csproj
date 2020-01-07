@@ -44,8 +44,29 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
-     <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
+  <ItemGroup>     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Original Resources\Fonts\fonts\arlishugbmd_test\Readme.txt" />
+     <None Include="Assets\Original Resources\UI\Pixel Art Icon Pack - RPG\Shader\SH Sprite Icon Outline Color.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Original Resources\Fonts\Pixel Font - Tripfive\_README.txt" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Original Resources\UI\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/studic/Unity/OnlineProject(github)/Unity-2D-Knapsack-System/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Sword
+  - Clothes
+  - Shoes
+  - Pants
   layers:
   - Default
   - TransparentFX
@@ -13,11 +17,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enviroment
+  - Equipment
+  - Consumables-prop
+  - Task-prop
   - 
   - 
   - 
@@ -40,4 +44,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 2248872509
+    locked: 0
+  - name: Environment
+    uniqueID: 3652809983
+    locked: 0
+  - name: Ground
+    uniqueID: 2172053167
+    locked: 0
+  - name: Player
+    uniqueID: 3190444233
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1105125659
     locked: 0
