@@ -44,8 +44,9 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\UI\InventoryManager.cs" />
+  <ItemGroup>     <Compile Include="Assets\Scripts\Player\KeyInteraction.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\UI\BagMenu.cs" />
      <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Original Resources\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

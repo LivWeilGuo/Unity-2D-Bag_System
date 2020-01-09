@@ -2511,6 +2511,7 @@ GameObject:
   - component: {fileID: 1031297996}
   - component: {fileID: 1031297998}
   - component: {fileID: 1031297997}
+  - component: {fileID: 1031297999}
   m_Layer: 5
   m_Name: Bag Menu
   m_TagString: Untagged
@@ -2578,6 +2579,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031297995}
   m_CullTransparentMesh: 0
+--- !u!114 &1031297999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031297995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527e85c439ed5cc40bafe9f2b2c172b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1135982800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,6 +2717,7 @@ GameObject:
   - component: {fileID: 1507863663}
   - component: {fileID: 1507863662}
   - component: {fileID: 1507863667}
+  - component: {fileID: 1507863668}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -2853,6 +2867,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {x: 0, y: 0}
+--- !u!114 &1507863668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507863661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7e52d16acb28d54b81f3c2c1aaefe6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myBag: {fileID: 1031297995}
 --- !u!1 &1593709997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3033,9 +3060,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1031297995}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1507863668}
+        m_MethodName: ChangeMyBag
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3136,7 +3163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 26d2e70834704ab4caaa1bcabebb3873, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9aa2c942e55346b48883bf78aba327ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
