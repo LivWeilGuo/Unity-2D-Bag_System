@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Wood Sword
   m_EditorClassIdentifier: 
   itemName: Wooden Sword
-  itemType: Sword
+  itemType: Equipment
   itemImage: {fileID: 21300000, guid: 2ddf0348701148a4d8a7c6a0f7f146b3, type: 3}
-  itemCount: 1
+  itemCount: 2
   itemDescription: This is a sword, a wooden sword, a normal sword
   attackValue: 1
   defenceValue: 0

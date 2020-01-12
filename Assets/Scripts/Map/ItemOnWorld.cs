@@ -30,6 +30,7 @@ public class ItemOnWorld : MonoBehaviour
                 {//找到第一个空值
                     bag_in.bagList[i] = item;
                     //刷新列表
+                    BagManager.RefreshItem();
                     //删除物品
                     Destroy(gameObject);
                     return;
@@ -42,6 +43,7 @@ public class ItemOnWorld : MonoBehaviour
         {//若包含
             item.itemCount++;
             //刷新列表
+            BagManager.RefreshItem();
             //删除物品
             Destroy(gameObject);
         }
