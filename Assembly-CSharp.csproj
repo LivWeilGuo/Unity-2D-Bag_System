@@ -45,14 +45,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\Scripts\Map\ItemOnWorld.cs" />
-     <Compile Include="Assets\Scripts\Player\KeyInteraction.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\System\Bag.cs" />
      <Compile Include="Assets\Scripts\System\Equipment.cs" />
+     <Compile Include="Assets\Scripts\System\GameSaveManager.cs" />
      <Compile Include="Assets\Scripts\System\Item.cs" />
+     <Compile Include="Assets\Scripts\System\KeyInteraction.cs" />
      <Compile Include="Assets\Scripts\UI\BagManager.cs" />
      <Compile Include="Assets\Scripts\UI\DragBag.cs" />
      <Compile Include="Assets\Scripts\UI\DragItem.cs" />
+     <Compile Include="Assets\Scripts\UI\MenuManager.cs" />
      <Compile Include="Assets\Scripts\UI\Slot.cs" />
      <None Include="Assets\Original Resources\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Original Resources\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
